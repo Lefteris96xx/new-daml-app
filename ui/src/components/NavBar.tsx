@@ -28,7 +28,7 @@ const Navbar: React.FC<NavProps> = ({ title }) => {
           onChange={handleSearch}
         />
         <button type="submit">Search</button>
-      </form>
+      </form>§  
       <li>
       <button onClick={() => console.log("Button clicked")}>
     Connect your wallet

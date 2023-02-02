@@ -2,6 +2,7 @@ import React from 'react'
 import { List, ListItem } from 'semantic-ui-react';
 import { User } from '@daml.js/new-daml-app';
 import { userContext } from './App';
+import LoginScreen from './LoginScreen';
 
 type Props = {
   partyToAlias: Map<string, string>

@@ -7,6 +7,7 @@ import MainView from './MainView';
 import { User } from '@daml.js/new-daml-app';
 import { PublicParty } from '../Credentials';
 import { userContext } from './App';
+import LoginScreen from './LoginScreen';
 
 type Props = {
   onLogout: () => void;

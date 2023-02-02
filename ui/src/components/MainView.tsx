@@ -8,6 +8,7 @@ import { User } from '@daml.js/new-daml-app';
 import { publicContext, userContext } from './App';
 import UserList from './UserList';
 import PartyListEdit from './PartyListEdit';
+import LoginScreen from './LoginScreen';
 
 
 import MessageEdit from './MessageEdit';
@@ -57,9 +58,8 @@ const MainView: React.FC = () => {
     <Container>
       <Container>
       <NavBar/>
-              <Grid centered columns={2}>
-              
-              </Grid>
+        <Grid centered columns={2}>
+        </Grid>
       </Container>
       <Grid centered columns={2}>
         <Grid.Row stretched>

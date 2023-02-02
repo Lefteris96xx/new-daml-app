@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import React from "react";
-import LoginScreen from "./LoginScreen";
 import MainScreen from "./MainScreen";
 import { createLedgerContext } from "@daml/react";
 import DamlHub, {
@@ -14,6 +13,7 @@ import DamlHub, {
 import Credentials from "../Credentials";
 import { authConfig } from "../config";
 import { useState } from 'react';
+import LoginScreen from "./LoginScreen";
 
 
 // Context for the party of the user.

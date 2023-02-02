@@ -4,6 +4,7 @@
 import React from "react";
 import { Form, List, Button } from "semantic-ui-react";
 import { Party } from "@daml/types";
+import LoginScreen from "./LoginScreen";
 
 type Props = {
   parties: Party[];

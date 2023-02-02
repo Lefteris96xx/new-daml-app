@@ -3,6 +3,7 @@ import { Form, Button } from 'semantic-ui-react';
 import { Party } from '@daml/types';
 import { User } from '@daml.js/new-daml-app';
 import { userContext } from './App';
+import LoginScreen from './LoginScreen';
 
 type Props = {
   followers: Party[];
